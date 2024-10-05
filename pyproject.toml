@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "military-detection"
+version = "0.1.0"
+description = ""
+authors = ["Andre Wiradarma <awiradarma@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+tqdm = "^4.66.5"
+ultralytics = "^8.3.5"
+ipywidgets = "^8.1.5"
+jupyter = "^1.1.1"
+fastai = "^2.7.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
